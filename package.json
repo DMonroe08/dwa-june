@@ -1,0 +1,23 @@
+{
+  "name": "dwa-june",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMonroe08/dwa-june.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DMonroe08/dwa-june/issues"
+  },
+  "homepage": "https://github.com/DMonroe08/dwa-june#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
