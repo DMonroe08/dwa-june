@@ -17,7 +17,5 @@
     "url": "https://github.com/DMonroe08/dwa-june/issues"
   },
   "homepage": "https://github.com/DMonroe08/dwa-june#readme",
-  "dependencies": {
-    "express": "^4.15.3"
-  }
+  "dependencies": {}
 }
