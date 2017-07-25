@@ -1,4 +1,4 @@
-const meal = ('./meal.js');
+const meal = require('./meal.js');
 
 const mealItems = [
 {mealID: 'kj3ns9djd', name: 'Pizza'},
@@ -17,28 +17,64 @@ const mealItems = [
 //   console.log('Your meal is ' + meal);
 // })
 
+// {mealID: '2ksiud837'};
+if (0 === 0 ){
+  // const aMealID = {mealID: '2ksiud837'};
+  // meal.getMeal(mealItems, aMealID);
+  const mealNum = mealItems[4];
+  meal.getMeal(mealItems, mealNum);
 
-if(meal.getMeals = true){
-// for(var index = 0; index < mealItems.length; index++){
-//   var name = mealItems[name];
-//   console.log('Your meal is ' + name);
-// }
-var getMeals = meal.getMeals;
-console.log(getMeals);
+  console.log('get meal working');
+}
+
+if(true == true){
+meal.getMeals(mealItems);
+
+// var getMeals = meal.getMeals(mealItems);
+// console.log(getMeals);
+console.log('get meals working');
 // console.log('meals listed');
+}else{
+  console.log('get meals not working');
 }
 
-if(meal.createMeal == true){
-
+if(3 ===3){
+var newItem = {mealID: 'o3394d3e9', name: 'Rice and Beans'};
+var newList = meal.createMeal(mealItems, newItem);
+// console.log(newList);
+console.log('create meal working');
 }
 
-if(meal.updateMeals = true){
-//meal.updateMeal({mealID: 12, name: 'sandwich'});
-console.log(mealItems);
+if(1 === 1){
+
+var updated = {mealID: 'kj3ns9djd', name: 'Baklava'};
+// var updatedList = meal.updateMeal(mealItems, updated);
+// var updatedList = meal.updateMeal(mealItems, updated);
+// console.log(updatedList + updated);
+
+var mealID = 'kj3ns9djdv';
+var new1 = 'Baklava';
+var indes = 0;
+
+meal.updateMeal(mealItems, mealID, new1, indes);
+console.log('update meal working');
 }
 
-if(meal.removeMeal == true){
-var removed = meal.removeMeal[4];
-var newList = mealItems - removed;
-  console.log(newList);
+if(9==9){
+  var mealID = 'kj3ns9djdv';
+  var new1 = 'Baklava';
+  var idx = 0;
+  meal.updateMeal2(mealItems, mealID, new1, idx);
+}
+
+if(2 === 2){
+// var removed = mealItems[4];
+// var newList = meal.removeMeal(mealItems, removed);
+//   console.log(newList);
+
+
+  const amount = 6;
+  const position = 1;
+  const newList = meal.removeMeal(mealItems, amount, position);
+  console.log('remove meal working');
 }
